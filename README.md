@@ -34,13 +34,11 @@ In VS Code, open just your project repository folder, e.g. Documents/streaming-0
 
 In VS Code, open a terminal window (View / Terminal) and verify your software is installed and configured.
 
-- If Mac/Linux, the default terminal should work.
-- If Windows, be sure you're using a PowerShell terminal (rather than cmd).
+
+-Use a PowerShell terminal (rather than cmd).
 
 Important: 
 
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
 - Type each command rather than copy & paste for best results. 
 - Wait for each command to complete before running the next command.
 
@@ -48,8 +46,8 @@ Important:
 git --version
 git config user.name
 git config user.email
-python --version
-python -m pip install --upgrade pip wheel
+py --version
+py -m pip install --upgrade pip wheel
 ```
 
 ✔️ Make sure all commands complete successfully. 
@@ -72,11 +70,9 @@ Use the terminal and the python command to execute the Python script.
 
 Important: 
 
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
 
 ```shell
-python util_about.py
+py util_about.py
 ```
 
 ✔️ Make sure your script runs successfully. 
@@ -101,24 +97,22 @@ Read the comments in the file to learn how to stop the process.
 
 Important: 
 
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
 - Wait for each script to finish. Did you generate a new datafile? What is the name?
 
 ```shell
-python process_batch_A.py
+py process_batch_A.py
 ```
 
 ```shell
-python process_batch_B.py
+py process_batch_B.py
 ```
 
 ```shell
-python process_batch_C.py
+py process_batch_C.py
 ```
 
 ```shell
-python process_streaming_0.py
+py process_streaming_0.py
 ```
 
 ✔️ Make sure your scripts complete successfully. 
